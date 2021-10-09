@@ -1,0 +1,14 @@
+package com.company;
+
+import java.util.Random;
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Random rand2 = new Random();
+      int e = rand2.nextInt(101);
+      System.out.println("Wylosowana liczba to: " + e);
+      System.out.println("Pierwiastek z e = " + Math.sqrt(e));
+    }
+}
